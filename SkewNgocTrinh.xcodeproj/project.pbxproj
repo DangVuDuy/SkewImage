@@ -13,6 +13,7 @@
 		FBF17BED1C293603009BBDE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF17BEB1C293603009BBDE2 /* Main.storyboard */; };
 		FBF17BEF1C293603009BBDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF17BEE1C293603009BBDE2 /* Assets.xcassets */; };
 		FBF17BF21C293603009BBDE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF17BF01C293603009BBDE2 /* LaunchScreen.storyboard */; };
+		FBF17BFC1C293A79009BBDE2 /* ngoc-trinh.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF17BFB1C293A79009BBDE2 /* ngoc-trinh.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FBF17BEE1C293603009BBDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF17BF11C293603009BBDE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBF17BF31C293603009BBDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF17BFB1C293A79009BBDE2 /* ngoc-trinh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ngoc-trinh.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FBF17BE61C293603009BBDE2 /* AppDelegate.m */,
 				FBF17BE81C293603009BBDE2 /* ViewController.h */,
 				FBF17BE91C293603009BBDE2 /* ViewController.m */,
+				FBF17BFB1C293A79009BBDE2 /* ngoc-trinh.png */,
 				FBF17BEB1C293603009BBDE2 /* Main.storyboard */,
 				FBF17BEE1C293603009BBDE2 /* Assets.xcassets */,
 				FBF17BF01C293603009BBDE2 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				FBF17BF21C293603009BBDE2 /* LaunchScreen.storyboard in Resources */,
 				FBF17BEF1C293603009BBDE2 /* Assets.xcassets in Resources */,
+				FBF17BFC1C293A79009BBDE2 /* ngoc-trinh.png in Resources */,
 				FBF17BED1C293603009BBDE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SkewNgocTrinh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.Family.SkewNgocTrinh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SkewNgocTrinh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.Family.SkewNgocTrinh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +307,7 @@
 				FBF17BF81C293603009BBDE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

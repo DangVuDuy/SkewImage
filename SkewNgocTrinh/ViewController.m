@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageview;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+
 
 @end
 
@@ -16,12 +19,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.slider addTarget:self action:@selector(skewimage) forControlEvents:UIControlEventValueChanged];
+
+}
+- (void)skewimage{
+    CGFloat skew = 180.0f * self.slider.value * M_PI / 180.0f;
+    CATransform3D t = CATransform3DIdentity;
+    t.m34 = 1.0/ -500;
+    t = CATransform3DRotate(t, skew, 0, 1, 0);
+    
+    CALayer *myLayer =  self.imageview.layer;
+    myLayer.transform = t;
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end
